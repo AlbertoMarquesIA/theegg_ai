@@ -14,7 +14,7 @@ def fDCMax(DNumeroIntroducido,DDiezMil):
                 Comunes.append(DDiezMil[DivisoresA])
     return Comunes[-1]
 
-numero = int(input())
+numero = float(input())
 Numerador = numero * 10000
 DNumerador = fDivisores(Numerador)
 DDenominador = fDivisores(10000)
