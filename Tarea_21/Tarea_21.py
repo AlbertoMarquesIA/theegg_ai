@@ -11,7 +11,7 @@ def fDCMax(DNumeroIntroducido,DDiezMil):            #Función encargada de obten
             if DDiezMil[DivisoresA] == DNumeroIntroducido[DivisoresB]:
                 Comunes.append(DDiezMil[DivisoresA])
     return Comunes[-1]                              #Devuelve el valor del Divisor común máximo que sera el último valor del array de Divisores comunes
-def main():
+def main():                                         #Programa principal donde se establecen las condiciones donde el valor minimo es 0.0001 y 0.9999
     i = 1
     while i != 0:
         snumero = input()
