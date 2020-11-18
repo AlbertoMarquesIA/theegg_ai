@@ -28,5 +28,5 @@ def main():                                         #Programa principal donde se
             iNR = int(NumReducido)
             iDR = int(DenReducido)
             print (f"{iNR}/{iDR}")
-
-main()
+while 1:
+    main()
